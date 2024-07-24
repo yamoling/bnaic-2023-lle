@@ -115,5 +115,5 @@ def run_experiment(exp: marl.Experiment):
 
 if __name__ == "__main__":
     # Default parameters if no argument is provided
-    params = Parameters(mixer=None)
+    params = Parameters()
     create_experiment(params)
